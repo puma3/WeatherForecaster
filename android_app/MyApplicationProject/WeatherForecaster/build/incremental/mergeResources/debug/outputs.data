@@ -1,0 +1,13 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1370137110000 7618 53bb6bc9d6e0afe528297a1403cae5473153c2cb /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1370137110000 796 b6aeb8749349d5d6f635f2d56b3c9c2397df069c /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/values/values.xml
+1370137110000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/values-sw720dp-land/values.xml
+1370137110000 649 52e8d9051811c2787c5fc0d0dc7735d67b0820be /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/layout/activity_main.xml
+1370137110000 3474 4f2ce0c842c0af638b3a197bfee9eb595b62f8c8 /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1370137110000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/menu/main.xml
+1370137110000 12373 75791fb59116cf3de083018085dbf497e3282aff /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1370137110000 217 f02e000d05a079992d2dba18039216c1e6b8784f /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/values-v14/values.xml
+1370137110000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/values-v11/values.xml
+1370137110000 5561 d48238524ca6530d9e235787296fe3fd0be7c4c2 /home/zeroblazer/Development/Git/WeatherForecaster/android_app/MyApplicationProject/WeatherForecaster/build/res/all/debug/drawable-hdpi/ic_launcher.png
