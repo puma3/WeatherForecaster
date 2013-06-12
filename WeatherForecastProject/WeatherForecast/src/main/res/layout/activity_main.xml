@@ -6,11 +6,71 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/weather_background" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+        <TextView
+                android:id="@+id/city_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_info"
+                android:textStyle="bold"
+                android:textColor="@color/color_lighter"
+
+                android:textSize="@dimen/city_size"
+                android:layout_gravity="center"
+                style="@style/AppBaseTheme"
+                android:shadowColor="@color/color_darker"
+                android:singleLine="false"
+                android:password="false"
+                android:focusable="false"/>
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dunno"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="Weather Condition"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/no_info"
+                android:id="@+id/textView2"
+                android:layout_gravity="center"
+                android:capitalize="words"/>
+
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/otherweather_ic"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp">
+
+            <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:text="bladasda"
+                        />
+                <TextView
+                        android:text="bladasda"/>
+
+            </TableLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>
