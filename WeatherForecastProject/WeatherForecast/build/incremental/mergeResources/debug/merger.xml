@@ -31,9 +31,9 @@
             <file
                 path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/values/dimens.xml"
                 qualifiers="" >
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
                 <dimen name="city_size" >30dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
                 <dimen name="activity_vertical_margin" >16dp
                 </dimen>
@@ -260,6 +260,201 @@
                 <color name="color_lighter" >#FFFFFFFF
                 </color>
             </file>
+            <file
+                name="13d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/13d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="03n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/03n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="sn50"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/sn50.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="11d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/11d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="11n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/11n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="04n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/04n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="50n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/50n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="10d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/10d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="09d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/09d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="02d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/02d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="t50"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/t50.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="50d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/50d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="03d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/03d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="01d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/01d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="13n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/13n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="10n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/10n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="01n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/01n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="02n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/02n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="04d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/04d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="r"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/r.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="09n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/09n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p09n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p09n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p09d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p09d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p13d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p13d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p03n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p03n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p50d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p50d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p03d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p03d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p01n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p01n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p10d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p10d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p02d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p02d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p01d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p01d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p04n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p04n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p11n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p11n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p02n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p02n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p04d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p04d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p50n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p50n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p11d"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p11d.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p13n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p13n.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="p10n"
+                path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/src/main/res/drawable/p10n.png"
+                qualifiers=""
+                type="drawable" />
         </source>
         <source path="/home/zeroblazer/Development/Git/WeatherForecaster/WeatherForecastProject/WeatherForecast/build/res/rs/debug" />
     </dataSet>

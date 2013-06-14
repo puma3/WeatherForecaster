@@ -20,40 +20,36 @@ public final class R {
         public static final int city_size=0x7f050002;
     }
     public static final class drawable {
-        public static final int a0=0x7f020000;
-        public static final int a13=0x7f020001;
-        public static final int a17=0x7f020002;
-        public static final int a19=0x7f020003;
-        public static final int a2=0x7f020004;
-        public static final int a24=0x7f020005;
-        public static final int a25=0x7f020006;
-        public static final int a26=0x7f020007;
-        public static final int a27=0x7f020008;
-        public static final int a28=0x7f020009;
-        public static final int a29=0x7f02000a;
-        public static final int a30=0x7f02000b;
-        public static final int a31=0x7f02000c;
-        public static final int a32=0x7f02000d;
-        public static final int a33=0x7f02000e;
-        public static final int a34=0x7f02000f;
-        public static final int a35=0x7f020010;
-        public static final int a36=0x7f020011;
-        public static final int a41=0x7f020012;
-        public static final int a44=0x7f020013;
-        public static final int a45=0x7f020014;
-        public static final int a46=0x7f020015;
-        public static final int a5=0x7f020016;
-        public static final int a8=0x7f020017;
-        public static final int a9=0x7f020018;
-        public static final int dunno=0x7f020019;
-        public static final int ic_launcher=0x7f02001a;
-        public static final int otherweather_ic=0x7f02001b;
-        public static final int weather_background=0x7f02001c;
+        public static final int dunno=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int otherweather_ic=0x7f020002;
+        public static final int p01d=0x7f020003;
+        public static final int p01n=0x7f020004;
+        public static final int p02d=0x7f020005;
+        public static final int p02n=0x7f020006;
+        public static final int p03d=0x7f020007;
+        public static final int p03n=0x7f020008;
+        public static final int p04d=0x7f020009;
+        public static final int p04n=0x7f02000a;
+        public static final int p09d=0x7f02000b;
+        public static final int p09n=0x7f02000c;
+        public static final int p10d=0x7f02000d;
+        public static final int p10n=0x7f02000e;
+        public static final int p11d=0x7f02000f;
+        public static final int p11n=0x7f020010;
+        public static final int p13d=0x7f020011;
+        public static final int p13n=0x7f020012;
+        public static final int p50d=0x7f020013;
+        public static final int p50n=0x7f020014;
+        public static final int r=0x7f020015;
+        public static final int sn50=0x7f020016;
+        public static final int t50=0x7f020017;
+        public static final int weather_background=0x7f020018;
     }
     public static final class id {
         public static final int action_settings=0x7f090002;
-        public static final int city_name=0x7f090000;
-        public static final int textView2=0x7f090001;
+        public static final int city_field=0x7f090000;
+        public static final int descr_field=0x7f090001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
