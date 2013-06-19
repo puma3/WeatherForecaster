@@ -47,7 +47,9 @@ public final class R {
         public static final int weather_background=0x7f020018;
     }
     public static final class id {
-        public static final int action_settings=0x7f090002;
+        public static final int action_settings=0x7f090004;
+        public static final int button_refresh=0x7f090002;
+        public static final int button_show=0x7f090003;
         public static final int city_field=0x7f090000;
         public static final int descr_field=0x7f090001;
     }

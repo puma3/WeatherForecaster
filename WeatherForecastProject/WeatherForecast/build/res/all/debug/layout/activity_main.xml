@@ -70,11 +70,44 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true">
 
-                <TextView
-                    android:text="bladasda"
-                    android:layout_width="wrap_content"/>
-                <TextView
-                        android:text="bladasda"/>
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <TextView
+                        android:text="bladasda"
+                        android:layout_width="wrap_content"
+                        android:layout_column="0"/>
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Refresh"
+                            android:id="@+id/button_refresh"
+                            android:layout_column="1"
+                            android:onClick="get_reading"/>
+
+                </TableRow>
+
+                <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                    <TextView
+                            android:text="bladasda"
+                            android:layout_column="0"/>
+
+                    <Button
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Show"
+                            android:id="@+id/button_show"
+                            android:layout_column="1"
+                            android:onClick="show_Reading()"/>
+
+                </TableRow>
 
             </TableLayout>
 
