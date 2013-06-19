@@ -13,6 +13,8 @@
     <string name="connection_error">Unable to load content. Check your network connection.</string>
     <string name="hello_world">Hello world!</string>
     <string name="no_info">No disponible</string>
+    <string name="title_activity_xml__parser">Getter</string>
+    <string name="title_activity_xml_parser ">Getter</string>
     <string name="xml_error">Error parsing XML.</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

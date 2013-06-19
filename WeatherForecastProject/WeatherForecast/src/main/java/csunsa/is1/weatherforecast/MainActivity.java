@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
         return true;
     }
 
-    public void show_Reading () {
+    public void show_Reading () {|
         /*****************TEST**********************/
         String  city = "Arequipa",
                 country = "PE",

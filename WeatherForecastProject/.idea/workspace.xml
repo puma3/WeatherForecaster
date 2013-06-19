@@ -21,13 +21,16 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bbadee2-be4e-4e42-ab5f-89db5ced39d2" name="Default" comment="Probando enviar commits desde Android Studio">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/build/source/r/debug/csunsa/is1/weatherforecast/R.java" afterPath="$PROJECT_DIR$/WeatherForecast/build/source/r/debug/csunsa/is1/weatherforecast/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/WeatherForecast.iml" afterPath="$PROJECT_DIR$/WeatherForecast/WeatherForecast.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecastProject.iml" afterPath="$PROJECT_DIR$/WeatherForecastProject.iml" />
+    <list default="true" id="9bbadee2-be4e-4e42-ab5f-89db5ced39d2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/XML_Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/res/menu/xml__parser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/res/menu/xml_parser .xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/MainActivity.java" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/WeatherForecast/build/res/all/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/WeatherForecast/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeatherForecast/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/WeatherForecast/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeatherForecast.iws" />
@@ -51,7 +54,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -88,6 +90,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -97,13 +100,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.1034484" vertical-offset="0" max-vertical-offset="1860">
+            <state line="12" column="40" selection-start="577" selection-end="577" vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="336">
               <folding />
             </state>
           </provider>
@@ -112,27 +115,16 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="43" selection-start="3153" selection-end="3153" vertical-scroll-proportion="-119.0" vertical-offset="1007" max-vertical-offset="1545">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherForecast/build/res/all/debug/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="33.6" vertical-offset="855" max-vertical-offset="1860">
+            <state line="55" column="37" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <file leaf-file-name="XML_Parser.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/XML_Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
+            <state line="25" column="73" selection-start="747" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -141,7 +133,7 @@
       <file leaf-file-name="single_reading.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/Info_Structures/single_reading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="1667" max-vertical-offset="2220">
+            <state line="48" column="25" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="2220">
               <folding />
             </state>
           </provider>
@@ -150,7 +142,7 @@
       <file leaf-file-name="gradle-wrapper.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="6" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -172,6 +164,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -220,6 +213,7 @@
         <option value="$PROJECT_DIR$/WeatherForecast/build/source/r/debug/csunsa/is1/weatherforecast/R.java" />
         <option value="$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/Info_Structures/single_reading.java" />
         <option value="$PROJECT_DIR$/WeatherForecast/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/XML_Parser.java" />
         <option value="$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/MainActivity.java" />
       </list>
     </option>
@@ -239,7 +233,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -258,8 +252,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -466,13 +458,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="75" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="97" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="75" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
@@ -480,10 +474,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="257" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="103" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1003" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1000" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="996" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="105" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="98" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="101" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="95" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
@@ -658,7 +652,11 @@
       <created>1371614275753</created>
       <updated>1371614275753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Probando enviar commits desde Android Studio">
+      <created>1371614453960</created>
+      <updated>1371614453960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -691,22 +689,22 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724506" sideWeight="0.6740995" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32648402" sideWeight="0.6752137" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590052" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32590052" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32478634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20547946" sideWeight="0.67581475" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32418525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20471841" sideWeight="0.6752137" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32418525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -809,16 +807,6 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
         <state line="14" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="330">
           <folding />
         </state>
@@ -877,19 +865,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherForecast/build/res/all/debug/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="52" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.6779661" vertical-offset="0" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/Info_Structures/single_reading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="1667" max-vertical-offset="2220">
+        <state line="48" column="25" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="2220">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="43" selection-start="3153" selection-end="3153" vertical-scroll-proportion="-119.0" vertical-offset="1007" max-vertical-offset="1545">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="55" column="37" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherForecast/src/main/java/csunsa/is1/weatherforecast/XML_Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="73" selection-start="747" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1380">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -898,21 +903,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="340" selection-end="340" vertical-scroll-proportion="-3.1034484" vertical-offset="0" max-vertical-offset="1860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherForecast/build/res/all/debug/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="92" selection-end="92" vertical-scroll-proportion="33.6" vertical-offset="855" max-vertical-offset="1860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="363">
+        <state line="12" column="40" selection-start="577" selection-end="577" vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="336">
           <folding />
         </state>
       </provider>

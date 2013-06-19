@@ -25,6 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="csunsa.is1.weatherforecast.XML_parser "
+            android:label="@string/title_activity_xml_parser " >
+        </activity>
+        <activity
+            android:name="csunsa.is1.weatherforecast.XML_Parser"
+            android:label="@string/title_activity_xml__parser" >
+        </activity>
     </application>
 
 </manifest>
