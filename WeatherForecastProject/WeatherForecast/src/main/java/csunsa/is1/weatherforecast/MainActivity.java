@@ -5,16 +5,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.widget.TextView;
 
-import java.net.URL;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
+
+import java.net.URL;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 import csunsa.is1.weatherforecast.Info_Structures.single_reading;
 
@@ -28,9 +28,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        get_reading();
-        show_Reading();
     }
 
     @Override
@@ -69,8 +66,28 @@ public class MainActivity extends Activity {
             Document doc = db.parse(new InputSource(url.openStream()));
             doc.getDocumentElement().normalize();
 
-            NodeList nodeList = doc.getElementsByTagName("item");
+            NodeList nodeList = doc.getElementsByTagName("current");            //Por cada lectura
 
+            /********** UNA LECTURA SIMPLE **********/
+            Node node = nodeList.item(0);
+            Element fstElmnt = (Element) node;
+
+            //LEER NOMBRE DE LA CIUDAD//
+            NodeList nameList = fstElmnt.getElementsByTagName("city");
+            Element nameElement = (Element) nameList.item(0);
+            nameList = nameElement.getChildNodes();
+            m_reading.set_city_name(((Element) nameList.item(0)).getAttribute("name"));
+
+            /*NodeList websiteList = fstElmnt.getElementsByTagName("website");
+            Element websiteElement = (Element) websiteList.item(0);
+            websiteList = websiteElement.getChildNodes();
+            website[i].setText("Website = "
+                    + ((Node) websiteList.item(0)).getNodeValue());
+
+            category[i].setText("Website Category = "
+                    + websiteElement.getAttribute("category"));*/
+
+            /****************************************/
 
         } catch (Exception e) {
             System.out.println("XML Parsing Exception = " + e);
